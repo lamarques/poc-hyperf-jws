@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  hyperf:
+    build: .
+    ports:
+      - "9501:9501"
+    volumes:
+      - ./:/app
+    environment:
+      - APP_ENV=dev

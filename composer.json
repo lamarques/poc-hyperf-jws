@@ -1,0 +1,12 @@
+{
+    "name": "lamarques/poc-hyperf-jws",
+    "require": {
+        "hyperf/framework": "^3.0",
+        "firebase/php-jwt": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
